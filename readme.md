@@ -8,9 +8,9 @@ This add-on gives descriptions of images for you by utilizing methods in Machine
 Notes:
 * The shortcut to get an image description of the current navigator object is NVDA+Control+I.
 * If you configure another language than English, the description could have translation issues because it's automatically generated.
-* Every time you analyze an image it gets sent to the cloud where the computer vision heavy computations are made.
-* All kinds of feedback is appreciated! I'm reachable at oliver.edholm@gmail.com.
-* If you are a developer and want to fiddle with the add-on, first run the deps.py script.
 
 Security:
-* The images are sent to a program hosted on Google Cloud doesn't get stored anywhere after the analysis is done.
+* The images are sent to a script hosted on the Google Cloud Platform for analysis. After the analysis the image gets removed from the server and will never be seen again.
+
+For developers:
+* If you want to fiddle with the add-on, first run the deps.py script.
