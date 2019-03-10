@@ -104,7 +104,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 		resp = urllib.urlopen(api_url % (lang, img_str)).read().decode('utf-8')
 
-		ui.browseableMessage(resp, _("Image description"))
+		ui.message(_('Analysis completed: ') + resp)
 
 
 	__gestures = {
