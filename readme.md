@@ -12,3 +12,5 @@ Notes:
 * All kinds of feedback is appreciated! I'm reachable at oliver.edholm@gmail.com.
 * If you are a developer and want to fiddle with the add-on, first run the deps.py script.
 
+Security:
+* The images are sent to a program hosted on Google Cloud doesn't get stored anywhere after the analysis is done.
