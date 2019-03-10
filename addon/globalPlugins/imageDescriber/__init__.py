@@ -54,7 +54,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			pass
 
 	def onImageDescriberSettings(self, event):
-		# Pop a dialog with available OCR languages to set
 		langs = sorted(supportedLocales)
 		curlang = getConfig()['language']
 		try:
