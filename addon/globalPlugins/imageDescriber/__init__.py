@@ -62,7 +62,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		except ValueError:
 			select = langs.index('en')
 		choices = [languageHandler.getLanguageDescription(locale) or locale for locale in supportedLocales]
-		print choices
 		dialog = wx.SingleChoiceDialog(gui.mainFrame, _("Select image description language, other languages than english are more prone to translation errors"), _("Image describer settings"), choices=choices)
 		dialog.SetSelection(select)
 		gui.mainFrame.prePopup()
