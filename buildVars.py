@@ -25,7 +25,11 @@ addon_info = {
 	# URL for the add-on documentation support
 	"addon_url" : "www.screenreader.ai",
 	# Documentation file name
-	"addon_docFileName" : "readme.html"
+	"addon_docFileName" : "readme.html",
+	# Minimum NVDA version supported
+	"addon_minimumNVDAVersion" : "2013.1",
+	# Last NVDA version supported/tested
+	"addon_lastTestedNVDAVersion" : "2019.1"
 }
 
 
