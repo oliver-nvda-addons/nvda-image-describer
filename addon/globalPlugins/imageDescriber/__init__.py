@@ -111,6 +111,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		"kb:NVDA+Control+I": "analyzeObject",
 	}
 
+	script_analyzeObject.__doc__ = _('Gives a description on how current navigator object looks like visually.')
+	script_analyzeObject.category = _('Image description')
+
 supportedLocales = [
 	"bg",
 	"ca",
