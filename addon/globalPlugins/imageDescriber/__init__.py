@@ -50,7 +50,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		try:
 			gui.mainFrame.sysTrayIcon.preferencesMenu.RemoveItem(
 				self.imageDescriberSettingsItem)
-		except wx.PyDeadObjectError:
+		except:
 			pass
 
 	def onImageDescriberSettings(self, event):
